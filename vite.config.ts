@@ -6,7 +6,7 @@ import {defineConfig} from 'vite';
 export default defineConfig(() => {
   return {
     // Replace "react-example" with your exact GitHub Repository name
-    base: '', 
+    base: '/Birthday-fullstack/', 
     plugins: [react(), tailwindcss()],
     resolve: {
       alias: {
